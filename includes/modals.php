@@ -120,3 +120,28 @@
     </div>
 </div>
 
+<!-- Help Hints Modal -->
+<div class="modal" id="helpModal" tabindex="-1" aria-labelledby="helpModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content" style="background-color: #31353d; color: #ffffff;">
+            <div class="modal-header">
+                <h5 class="modal-title" id="helpModalLabel">Hints</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-9">
+                        <p>Remaining hints: 3</p>
+                        <p>Do you want to use a hint?</p>
+                    </div>
+                    <div class="col-md-3">
+                      <button id="help_modal_accept_button">
+                        <span class="back"></span>
+                        <span class="front"></span>
+                      </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

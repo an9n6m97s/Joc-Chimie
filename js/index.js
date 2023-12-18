@@ -111,3 +111,12 @@ $(document).ready(function() {
     $("#supportModal").modal("show");
   });
 });
+
+// Help Hint Modal
+$(document).ready(function () {
+  $("#help_menu_toggler").css("cursor", "pointer")
+
+  $("#help_menu_toggler").click(function () {
+    $("#helpModal").modal("show");
+  });
+});
